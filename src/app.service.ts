@@ -1,7 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { IUserWithdrawDto } from './interface/withdraw.interface';
 import { RepositoryEntity } from './repository';
-// import {RepositoryEntity}
 
 @Injectable()
 export class AppService {
